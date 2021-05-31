@@ -1,0 +1,48 @@
+body{
+    background: $fondo;
+}
+.body__article--rad{
+    border-radius: 3.8rem;
+}
+
+
+.header--wp {
+	position: fixed;
+	width: 110px;
+	margin-left: 90%;
+	bottom: 0;
+	right: -10px;
+	transition: all 0.2s ease-in;
+	min-width: 4vw;
+}
+
+.header--numero {
+	position: fixed;
+	display: none;
+	right: 75px;
+	bottom: 18px;
+	font-size: 1.5rem;
+	transition: all 0.3s ease-in;
+	opacity: 0;
+}
+
+div:hover .header--numero {
+	border: none;
+	border-radius: 1vh;
+	display: flex;
+	background-color: rgba(250, 136, 60, 0.377);
+	opacity: 1;
+	color: $formatoColor;
+}
+
+section .header--wp:hover {
+	transform: scale(1.2, 1.2);
+}
+
+.body__article--color{
+    // background-color: rgba(247, 184, 103, 0.37);
+	background-color: $contentColor;
+	color: black;
+	font-size: 1.3rem;
+	border-radius: 1rem;
+}

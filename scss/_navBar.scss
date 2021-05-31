@@ -1,0 +1,16 @@
+
+.header__nav--bg{
+    background-color: $formatoColor;
+}
+
+.header__nav__li--bg{
+    background-color: rgba(196, 165, 132, 0.377);
+    border-radius: 1rem;
+}
+
+nav div ul li:hover{
+    display: block;
+    background-color: rgba(196, 165, 132, 0.377);
+    border-radius: 1rem;
+}
+
