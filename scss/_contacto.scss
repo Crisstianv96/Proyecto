@@ -5,6 +5,16 @@
 
 .body--form__tittle{
     background: rgb(250,235,215);
-    background: linear-gradient(90deg, rgba(250,235,215,0.27) 0%, rgba(250,235,215,1) 50%, rgba(250,235,215,0.27) 100%);
+    background: linear-gradient(90deg, rgba(250,235,215,0.27) 0%, $contentColor 50%, rgba(250,235,215,0.27) 100%);
     padding: 0.3rem; 
+    font-family: $fuenteCont;
+    font-size: 2rem;
+}
+
+.body--form__tittle2{
+    font-size: 3rem;
+}
+
+.body--form__tittle3{
+    color: #464444;
 }

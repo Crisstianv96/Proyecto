@@ -1,5 +1,6 @@
 body{
     background: $fondo;
+	
 }
 .body__article--rad{
     border-radius: 3.8rem;
@@ -45,4 +46,18 @@ section .header--wp:hover {
 	color: black;
 	font-size: 1.3rem;
 	border-radius: 1rem;
+}
+
+.body__article--text{
+	font-size: 2rem;
+	font-family: $fuenteCont;
+
+}
+
+.body__article--icono{
+	width: 2rem;
+}
+
+.header--titulo__fondo{
+background-color:$formatoColor;
 }

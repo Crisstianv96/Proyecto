@@ -1,11 +1,10 @@
 .body--marca__tamaño{
-    width: 100%;
-    height: 100%;
-
+    width: 14vw;
 }
 
 .body--titu__tipo{
-    background-color: $contentColor;
-    color: chocolate;
+    background-color: $formatoColor;
+    color: $fuenteTitu;
     border-radius: 10rem;
+    font-family: $fuenteCont;
 }
