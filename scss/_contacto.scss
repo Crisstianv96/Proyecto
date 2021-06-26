@@ -18,3 +18,9 @@
 .body--form__tittle3{
     color: #464444;
 }
+
+@media only screen and (max-width: 600px) {
+.body__contacto--form{
+    display: flex;
+    justify-content: center;
+}}

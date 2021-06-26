@@ -61,3 +61,10 @@ section .header--wp:hover {
 .header--titulo__fondo{
 background-color:$formatoColor;
 }
+
+@media only screen and (max-width: 600px) {
+	.body__article--info {
+	  min-width: 100%;
+	}
+	
+  }
